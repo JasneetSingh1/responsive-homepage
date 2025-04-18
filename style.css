@@ -3,3 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+
+/* ABOUT SECTION */
+
+.about{
+    padding: 16px;
+}
+
+.about-img-container{
+    position: relative;
+}
+.about-img{
+    box-shadow: 2px 2px 20px 4px rgb(168, 167, 167);
+    object-fit: contain;
+    height: auto;
+    width: 100%;
+}
+
+.about-name{
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    left: 5%;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 0.3rem;
+}
