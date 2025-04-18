@@ -6,7 +6,6 @@
 
 body {
   background-color: brown;
-  
 }
 
 .body-wrapper {
@@ -42,11 +41,12 @@ body {
 .about-name {
   position: absolute;
   z-index: 1;
-    top: 65%;
-    left: 5%;
-    color: white;
-    font-size: 48px;
-    letter-spacing: 0.3rem;
+  top: 65%;
+  left: 5%;
+  color: white;
+  font-size: 48px;
+  letter-spacing: 0.3rem;
+  width: 70%;
 }
 
 .about-content {
@@ -95,4 +95,39 @@ body {
   display: flex;
   flex-direction: column;
   margin: 16px;
+}
+
+.project{
+    box-shadow: 1px 1px 10px 1px rgb(201, 200, 200);
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.project-img{
+    width: 100%;
+}
+
+
+.project-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    max-inline-size: 66ch;
+}
+
+.project-content-links > *{
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+.link-logo{
+    width: .99em;
+}
+
+.project-content-para{
+    opacity: 65%;
+    font-size: 1.1em;
+    padding: 16px;
+    line-height: 1.2;
 }
