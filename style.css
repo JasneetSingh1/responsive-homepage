@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
-  
-}
+
 
 .body-wrapper {
   max-width: 1200px;
@@ -20,6 +18,19 @@ body {
 
 /* ABOUT SECTION */
 
+.box{
+    background: #fff;
+    width: 100vw;
+    height: 0vh;
+}
+
+.box::after{
+    position: absolute;
+    content: " ";
+    border-top: 30vh solid #089bf7;
+    border-right: 130vw solid transparent;
+    width: 0;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -35,7 +46,7 @@ body {
   box-shadow: 2px 2px 20px 4px rgb(168, 167, 167);
   object-fit: contain;
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .about-name {
