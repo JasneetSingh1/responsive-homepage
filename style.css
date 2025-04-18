@@ -94,6 +94,8 @@ body {
 .projects {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 16px;
 }
 
@@ -101,6 +103,7 @@ body {
   box-shadow: 1px 1px 10px 1px rgb(201, 200, 200);
   border-radius: 5px;
   margin-bottom: 24px;
+  max-width: 350px;
 }
 
 .project-img {
@@ -154,7 +157,7 @@ footer {
 .footer-contact-title {
   text-align: center;
   font-size: 2em;
-  opacity: 80%;
+  
 }
 .footer-contact-para{
     font-size: 1.6em;
