@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body{
+    background-color: rgb(245, 245, 245);
+}
 
 /* ABOUT SECTION */
 
@@ -14,6 +16,7 @@
 
 .about-img-container{
     position: relative;
+    margin: 16px 0px;
 }
 .about-img{
     box-shadow: 2px 2px 20px 4px rgb(168, 167, 167);
@@ -30,4 +33,35 @@
     color: white;
     font-size: 48px;
     letter-spacing: 0.3rem;
+}
+
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-inline-size: 66ch;
+}
+
+.about-content-title{
+    font-size: 2em;
+    opacity: 80%;
+    margin-top: 8px;
+}
+
+.about-content-para{
+    opacity: 65%;
+    font-size: 1.2em;
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+.about-content-links{
+    margin-top: 16px;
+}
+
+.about-content-links > *  {
+    margin-right: 8px;
+    font-size: 1.5em;
 }
