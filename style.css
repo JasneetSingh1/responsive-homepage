@@ -1,33 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(245, 245, 245);
+body {
+  background-color: brown;
+  
+}
+
+.body-wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  border: 1px solid blue;
+  overflow-x: hidden;
 }
 
 /* ABOUT SECTION */
 
-.about{
-    padding: 16px;
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-img-container{
-    position: relative;
-    margin: 16px 0px;
+.about-img-container {
+  position: relative;
+  margin: 16px 0px;
 }
-.about-img{
-    box-shadow: 2px 2px 20px 4px rgb(168, 167, 167);
-    object-fit: contain;
-    height: auto;
-    width: 100%;
+.about-img {
+  box-shadow: 2px 2px 20px 4px rgb(168, 167, 167);
+  object-fit: contain;
+  height: auto;
+  max-width: 100%;
 }
 
-.about-name{
-    position: absolute;
-    z-index: 1;
+.about-name {
+  position: absolute;
+  z-index: 1;
     top: 65%;
     left: 5%;
     color: white;
@@ -35,33 +49,50 @@ body{
     letter-spacing: 0.3rem;
 }
 
-
-.about-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-inline-size: 66ch;
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-inline-size: 66ch;
 }
 
-.about-content-title{
-    font-size: 2em;
-    opacity: 80%;
-    margin-top: 8px;
+.about-content-title {
+  font-size: 2em;
+  opacity: 80%;
+  margin-top: 8px;
 }
 
-.about-content-para{
-    opacity: 65%;
-    font-size: 1.2em;
-    margin-top: 16px;
-    line-height: 1.6;
+.about-content-para {
+  opacity: 65%;
+  font-size: 1.2em;
+  margin-top: 16px;
+  line-height: 1.6;
 }
 
-.about-content-links{
-    margin-top: 16px;
+.about-content-links {
+  margin-top: 16px;
 }
 
-.about-content-links > *  {
-    margin-right: 8px;
-    font-size: 1.5em;
+.about-content-links > * {
+  margin-right: 8px;
+  font-size: 1.5em;
+}
+
+/* WORK SECTION */
+
+.work {
+  margin-top: 80px;
+}
+
+.work-title {
+  text-align: center;
+  font-size: 2em;
+  opacity: 80%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
 }
