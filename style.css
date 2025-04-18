@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: brown;
+  
 }
 
 .body-wrapper {
@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   background-color: rgb(245, 245, 245);
   width: 100%;
-  border: 1px solid blue;
+  
   overflow-x: hidden;
 }
 
@@ -97,37 +97,93 @@ body {
   margin: 16px;
 }
 
-.project{
-    box-shadow: 1px 1px 10px 1px rgb(201, 200, 200);
-    border-radius: 5px;
-    margin-bottom: 24px;
+.project {
+  box-shadow: 1px 1px 10px 1px rgb(201, 200, 200);
+  border-radius: 5px;
+  margin-bottom: 24px;
 }
 
-.project-img{
-    width: 100%;
+.project-img {
+  width: 100%;
 }
 
-
-.project-content{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 16px;
-    max-inline-size: 66ch;
+.project-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  max-inline-size: 66ch;
 }
 
-.project-content-links > *{
+.project-content-links > * {
+  font-size: 1.2em;
+  margin-right: 8px;
+}
+
+.link-logo {
+  width: 0.99em;
+}
+
+.project-content-para {
+  opacity: 65%;
+  font-size: 1.1em;
+  padding: 16px;
+  line-height: 1.2;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  background-color: #0d61e0;
+  color: #fff;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contact-info {
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 50ch;
+  
+  padding: 16px;
+  margin: 0 auto;
+}
+
+.footer-contact-title {
+  text-align: center;
+  font-size: 2em;
+  opacity: 80%;
+}
+.footer-contact-para{
+    font-size: 1.6em;
+
+}
+
+.footer-contact-para, .footer-contact-address{
+    margin: 16px 0px;
+}
+
+.footer-contact-address, .footer-contact-phone, .footer-contact-mail{
     font-size: 1.2em;
-    margin-right: 8px;
 }
 
-.link-logo{
-    width: .99em;
+
+.footer-contact-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
-.project-content-para{
-    opacity: 65%;
-    font-size: 1.1em;
-    padding: 16px;
-    line-height: 1.2;
+.footer-contact-links > * {
+    margin-right: 24px;
+    font-size: 2em;
+}
+
+.footer-img{
+    object-fit: contain;
+  height: auto;
+  width: 100%;
 }
