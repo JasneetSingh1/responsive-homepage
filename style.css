@@ -201,3 +201,27 @@ footer {
   height: auto;
   width: 100%;
 }
+
+
+
+/* TABLET */
+
+@media (min-width: 768px){
+
+  .projects{
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .project{
+    width: 50%;
+    
+  }
+
+  .work-title{
+    text-align:left;
+    position: relative;
+    left: 62px;
+  }
+}
