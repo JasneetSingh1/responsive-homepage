@@ -4,32 +4,30 @@
   box-sizing: border-box;
 }
 
-
-
 .body-wrapper {
   max-width: 1200px;
   padding: 0 16px;
   margin: 0 auto;
   background-color: rgb(245, 245, 245);
   width: 100%;
-  
+
   overflow-x: hidden;
 }
 
 /* ABOUT SECTION */
 
-.box{
-    background: #fff;
-    width: 100vw;
-    height: 0vh;
+.box {
+  background: #fff;
+  width: 100vw;
+  height: 0vh;
 }
 
-.box::after{
-    position: absolute;
-    content: " ";
-    border-top: 30vh solid #089bf7;
-    border-right: 130vw solid transparent;
-    width: 0;
+.box::after {
+  position: absolute;
+  content: " ";
+  border-top: 30vh solid #089bf7;
+  border-right: 130vw solid transparent;
+  width: 0;
 }
 .about {
   display: flex;
@@ -160,7 +158,7 @@ footer {
   display: flex;
   flex-direction: column;
   max-inline-size: 50ch;
-  
+
   padding: 16px;
   margin: 0 auto;
 }
@@ -168,60 +166,79 @@ footer {
 .footer-contact-title {
   text-align: center;
   font-size: 2em;
-  
 }
-.footer-contact-para{
-    font-size: 1.6em;
-
+.footer-contact-para {
+  font-size: 1.6em;
 }
 
-.footer-contact-para, .footer-contact-address{
-    margin: 16px 0px;
+.footer-contact-para,
+.footer-contact-address {
+  margin: 16px 0px;
 }
 
-.footer-contact-address, .footer-contact-phone, .footer-contact-mail{
-    font-size: 1.2em;
+.footer-contact-address,
+.footer-contact-phone,
+.footer-contact-mail {
+  font-size: 1.2em;
 }
-
 
 .footer-contact-links {
-    display: flex;
-    justify-content: center;
-    margin-top: 24px;
-    margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 32px;
 }
 
 .footer-contact-links > * {
-    margin-right: 24px;
-    font-size: 2em;
+  margin-right: 24px;
+  font-size: 2em;
 }
 
-.footer-img{
-    object-fit: contain;
+.footer-img {
+  object-fit: contain;
   height: auto;
   width: 100%;
 }
 
-
-
 /* TABLET */
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
 
-  .projects{
+
+
+
+
+  /* WORK SECTION  */
+  .projects {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 24px;
   }
 
-  .project{
+  .project {
     width: 50%;
-    
   }
 
-  .work-title{
-    text-align:left;
+  .work-title {
     position: relative;
-    left: 62px;
+    right: 295px;
+  }
+
+  /* FOOTER */
+
+  footer{
+    flex-direction: row;
+    padding-bottom: 48px;
+    justify-content: space-between;
+
+  }
+  .footer-img{
+    width: 300px;
+    padding: 24px;
+  }
+
+  .footer-contact-info{
+    padding: 24px;
+    margin: 0;
   }
 }
