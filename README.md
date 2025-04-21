@@ -1,82 +1,50 @@
 ## Table of Contents
 
-1. [Description](#description)
-1. [Demo](#demo)
-1. [Design](#design)
-1. [Features](#features)
-1. [Technologies Used](#technologies-used)
-1. [Project Challenges](#project-challenges)
-1. [Thoughts and Observations](#thoughts-and-observations)
-1. [Future Enhancements](#future-enhancements)
-1. [Installation](#installation)
+1. [Description](#description)  
+1. [Features](#features)  
+1. [Technologies Used](#technologies-used)  
+1. [Project Challenges](#project-challenges)  
+1. [Thoughts and Observations](#thoughts-and-observations)  
+1. [Future Enhancements](#future-enhancements)  
+
 
 ## Description
 
-Briefly describe your project here. Include the project's purpose, your motivation for creating it, and any goals or achievements it represents.
-
-## Demo
-
-Provide a link to a live demo. Use gh-pages, Netlify or Vercel.
-
-Click here: [https://link-to-your-demo-goes-here/](https://link-to-your-demo-goes-here/)
-
-## Design
-
-Add a screenshot or video here. 
-I recommend https://shots.so
-
-<div align='center'>
-<img src='./path/to/your/desktop-design-screenshot.png' alt='Screenshot of desktop design'>
-<img src='../path/to/your/mobile-design-screenshot.png' alt='Screenshot of mobile design'>
-</div>
+This project is a responsive homepage built as the final project for the Advanced HTML and CSS course. The goal was to practice advanced layout and design techniques by replicating a multi-screen design brief (mobile, tablet, and desktop). It serves as a mock portfolio homepage, where I could demonstrate layout proficiency, semantic HTML usage, and responsive design using mobile-first principles. The project showcases not just technical skills but also design thinking—such as visual hierarchy, layout consistency, and user-friendly responsiveness.
 
 ## Features
 
-- List the key features of your project.
-- Highlight any unique functionalities or approaches you took in its development.
+- Responsive layout with tailored designs for mobile, tablet, and desktop views.
+- A unique angled hero background created with pure CSS using `::after` and border tricks.
+- An "About" section where the image overlaps the text content and allows for natural text wrapping.
+- Social media icon links (GitHub, LinkedIn, Twitter) using Devicon.
+- Semantic HTML5 structure with accessibility in mind.
+- Fluid layout using Flexbox and media queries for breakpoints.
 
 ## Technologies Used
 
-List the technologies, libraries or frameworks used in the project.
+- HTML5  
+- CSS3 (Mobile-first approach)  
+- Flexbox  
+- Media Queries  
+- Devicon.dev for social icons  
+- Google Fonts (Playfair Display, Roboto)  
 
 ## Project Challenges
 
-Discuss any challenges you faced during the project's development, including how you overcame them or what you learned from these experiences.
+- Positioning overlapping elements with float and relative positioning while maintaining responsiveness was tricky, especially getting the image and text to flow naturally at larger breakpoints.
+- Getting the angled background section to scale well across screen sizes took some experimentation with viewport units and `border`-based triangles.
+- Ensuring the design maintained visual balance and alignment through all breakpoints was a recurring task during development.
+- Mobile-first development required rethinking layout defaults to progressively enhance styles for wider screens.
 
 ## Thoughts and Observations
 
-Share any insights or reflections you have from working on the project. This could include your thoughts on the development process, design decisions etc.
+This project really reinforced the importance of planning layout structure before diving into styling. Starting from a mobile-first mindset helped keep things clean and manageable. It also gave me a chance to creatively use CSS techniques like floats, `z-index`, and pseudo-elements to recreate designs that would normally require graphic assets. Having a real-world-like mockup made the development process more grounded and helped simulate client or job-ready development.
 
 ## Future Enhancements
 
-Outline any potential improvements or features you might want to add in the future. This shows the project's potential for growth and areas for further development.
-
-## Installation
-
-Provide instructions on how to install and run your project locally.
-
-Example below:
-
-1. Clone the GitHub repository to your local machine:
-
-   ```bash
-   git clone https://github.com/your-username/your-project-name.git
-   ```
-
-2. Navigate to the project's directory:
-
-   ```bash
-   cd your-project-name
-   ```
-
-3. Install the project's dependencies using npm:
-
-   ```bash
-   npm install
-   ```
-
-4. To build the project:
-
-   ```bash
-   npm run build
-   ```
+- Add smooth scroll navigation and a sticky header for better UX.
+- Introduce animations or transitions to section reveals for more interactivity.
+- Optimize for performance and accessibility (e.g. color contrast improvements, `aria` attributes).
+- Include a working contact form and expandable projects section.
+- Add dark mode toggle support for better personalization.
