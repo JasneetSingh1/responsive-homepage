@@ -301,17 +301,14 @@ footer {
     justify-content: end;
   }
 
-  
-
   .project {
     width: 30%;
   }
 }
 
 /* LARGE MONITORS */
-@media (min-width: 1600px){
-
-  .about{
+@media (min-width: 1600px) {
+  .about {
     height: 900px;
   }
 }

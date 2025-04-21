@@ -1,12 +1,11 @@
 ## Table of Contents
 
-1. [Description](#description)  
-1. [Features](#features)  
-1. [Technologies Used](#technologies-used)  
-1. [Project Challenges](#project-challenges)  
-1. [Thoughts and Observations](#thoughts-and-observations)  
-1. [Future Enhancements](#future-enhancements)  
-
+1. [Description](#description)
+1. [Features](#features)
+1. [Technologies Used](#technologies-used)
+1. [Project Challenges](#project-challenges)
+1. [Thoughts and Observations](#thoughts-and-observations)
+1. [Future Enhancements](#future-enhancements)
 
 ## Description
 
@@ -23,12 +22,11 @@ This project is a responsive homepage built as the final project for the Advance
 
 ## Technologies Used
 
-- HTML5  
-- CSS3 (Mobile-first approach)  
-- Flexbox  
-- Media Queries  
-- Devicon.dev for social icons  
-- Google Fonts (Playfair Display, Roboto)  
+- HTML5
+- CSS3 (Mobile-first approach)
+- Flexbox
+- Media Queries
+- Devicon.dev for social icons
 
 ## Project Challenges
 
